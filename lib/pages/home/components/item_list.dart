@@ -10,8 +10,8 @@ class ItemList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: Row(
+      scrollDirection: Axis.vertical,
+      child: Column(
         children: <Widget>[
           ItemCard(
             svgSrc: "assets/icons/burger_beer.svg",
